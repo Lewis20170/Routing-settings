@@ -22,6 +22,7 @@
     ]
   },
   {
+    "port": "",
     "inboundTag": [],
     "outboundTag": "direct",
     "ip": [
@@ -29,8 +30,10 @@
       "geoip:cn"
     ],
     "domain": [
+      "geosite:private",
       "geosite:cn"
-    ]
+    ],
+    "protocol": []
   },
   {
     "port": "0-65535",
