@@ -6,8 +6,17 @@
     ]
   },
   {
+    "port": "",
     "inboundTag": [],
     "outboundTag": "proxy",
+    "ip": [
+      "geoip:cloudflare",
+      "geoip:cloudfront",
+      "geoip:facebook",
+      "geoip:fastly",
+      "geoip:netflix",
+      "geoip:telegram"
+    ],
     "domain": [
       "geosite:gfw",
       "geosite:greatfire",
@@ -19,7 +28,8 @@
       "geosite:twitter",
       "geosite:telegram",
       "geosite:twitch"
-    ]
+    ],
+    "protocol": []
   },
   {
     "port": "",
