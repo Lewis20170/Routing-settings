@@ -1,0 +1,40 @@
+[
+  {
+    "outboundTag": "block",
+    "domain": [
+      "geosite:category-ads-all"
+    ]
+  },
+  {
+    "inboundTag": [],
+    "outboundTag": "proxy",
+    "domain": [
+      "geosite:gfw",
+      "geosite:greatfire",
+      "geosite:geolocation-!cn",
+      "geosite:category-games",
+      "geosite:google",
+      "geosite:microsoft",
+      "geosite:facebook",
+      "geosite:twitter",
+      "geosite:telegram",
+      "geosite:twitch"
+    ]
+  },
+  {
+    "inboundTag": [],
+    "outboundTag": "direct",
+    "ip": [
+      "geoip:private",
+      "geoip:cn"
+    ],
+    "domain": [
+      "geosite:cn"
+    ]
+  },
+  {
+    "port": "0-65535",
+    "inboundTag": [],
+    "outboundTag": "direct"
+  }
+]
