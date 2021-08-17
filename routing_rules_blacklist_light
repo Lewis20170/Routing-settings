@@ -1,0 +1,46 @@
+[
+  {
+    "outboundTag": "block",
+    "domain": [
+      "geosite:category-ads-all"
+    ]
+  },
+  {
+    "port": "",
+    "inboundTag": [],
+    "outboundTag": "proxy",
+    "ip": [
+      "geoip:cloudflare",
+      "geoip:cloudfront",
+      "geoip:facebook",
+      "geoip:fastly",
+      "geoip:netflix",
+      "geoip:telegram"
+    ],
+    "domain": [
+      "geosite:gfw",
+      "geosite:greatfire",
+      "geosite:geolocation-!cn"
+    ],
+    "protocol": []
+  },
+  {
+    "port": "",
+    "inboundTag": [],
+    "outboundTag": "direct",
+    "ip": [
+      "geoip:private",
+      "geoip:cn"
+    ],
+    "domain": [
+      "geosite:private",
+      "geosite:cn"
+    ],
+    "protocol": []
+  },
+  {
+    "port": "0-65535",
+    "inboundTag": [],
+    "outboundTag": "direct"
+  }
+]
