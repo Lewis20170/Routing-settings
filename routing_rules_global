@@ -1,0 +1,6 @@
+[
+  {
+    "outboundTag": "proxy",
+    "port": "0-65535",
+  }
+]
